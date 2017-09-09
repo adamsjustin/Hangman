@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Hangman</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="./Assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Rock+Salt" rel="stylesheet">
+
+</head>
+
+
+<body>
+	
+	<header>
+			<audio autoplay="true" loop> <source src="./Assets/images/8-bit game sound.mp3" type="audio/mpeg" width="2" height="0">
+			</audio>
+	</header>
+    <div class="container" id="heading">
+		<header>
+			<h1>8-Bit</h1>
+			<br>
+			<h2>Hangman</h2>
+		</header>
+
+</div>
+
+	<div class="container game">
+
+
+		<div class="row" style="text-align: center;">
+			<div class="col-12";>
+				<h1 style="color: lawngreen; font-family: 'Press Start 2P', cursive;"> Guess the Word or Phrase! </h1> 
+			</div>
+			<div style="width: 100%; height: 165px;">
+			<center><img class="col-3" id="hangmanImg" src="" style="height: 50px; width: 50px; display: none;"></center>
+			</div>
+			<div class="col-12"  id="selectedWord"></div>
+			<div class="col-12"">
+				<div  style="height: 200px"></div>
+			</div>
+			<div class="col-12" id="guessed" style="height: 150px; color: lawngreen;"></div>
+			<div class="col-3 reset menu">
+				<div class="btn-group" role="group" aria-label="Basic example">
+ 					 <button type="button" class="btn btn-secondary"><a href="game.html">Reset</a></button>
+ 					 <button type="button" class="btn btn-secondary"><a href="index.html">Main Menu</a></button>
+				</div>
+			</div>
+		</div>
+</div>
+
+
+	<div class="container footer">
+
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <script src="./Assets/javascript/script.js" type="javascript"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+   	<script type="text/javascript" src="./Assets/javascript/script.js"></script>
+  </body>
+
+</body>
+</html>
